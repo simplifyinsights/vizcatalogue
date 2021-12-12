@@ -4,11 +4,11 @@ This is a simple web application for my VizCatalogue site for my Tableau Tutoria
 
 You can find this [Here](https://tabcat.toanhoang.com)
 
-# Technology
+## Technology
 
 This application leverages jQuery (for interactivity) and Materializecss as the front end framework i.e. Leveraging the Grid functionality and Cards.
 
-# Website Text
+## Website Text
 
 This is an Excel file that is used to generate the "Cards".
 
@@ -20,7 +20,7 @@ This is an Excel file that is used to generate the "Cards".
 - Column G-J: Hidden, but this contains the HTML segments that will make up the card, I have split this into individual pieces for ease of editing 
 - Column L: This is the final HTML that will need to be copied between the <!-- Cards --> and <!-- End of Cards -->
 
-# Install Guide
+## Install Guide
 
 - Install Node.js and NPM
 - Install Yarn
