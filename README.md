@@ -20,6 +20,10 @@ This is an Excel file that is used to generate the "Cards".
 - Column G-J: Hidden, but this contains the HTML segments that will make up the card, I have split this into individual pieces for ease of editing 
 - Column L: This is the final HTML that will need to be copied between the <!-- Cards --> and <!-- End of Cards -->
 
+## Images
+
+The Catalogue Images.xcf file is a [Gimp](https://www.gimp.org/) file which contains the template used for the images
+
 ## Install Guide
 
 - Install Node.js and NPM
