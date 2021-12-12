@@ -1,5 +1,25 @@
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="description"
+      content="This site was created by Toan Hoang, Tableau Zen Master as a way
+      to quickly search for tutorials for the visualisations you require."
+    />
+    <title>Tableau Tutorials Catelogue</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicons.png" />
+    <meta property="og:title" content="Tableau Tutorials Catelogue" />
+    <meta property="og:image" content="img/social_image.png" />
+    <meta name="twitter:title" content="Tableau Tutorials Catelogue" />
+    <meta
+      name="twitter:description"
+      content="This site was created by Toan Hoang, Tableau Zen Master as a way
+      to quickly search for tutorials for the visualisations you require."
+    />
+    <meta name="twitter:image" content=" img/social_image.png" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -15,280 +35,2961 @@
     />
     <div class="container">
       <h3>Tableau Data Viz Catalogue</h3>
+      <p class="sub-header">
+        Tableau Tutorials for creating all your required chart types
+      </p>
 
       <!-- Modal Trigger -->
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1"
-        >About</a
+      <a
+        class="
+          waves-effect waves-light
+          btn-small
+          modal-trigger
+          blue-grey
+          lighten-2
+        "
+        href="#modal1"
+        ><i class="material-icons">info_outline</i></a
       >
 
       <!-- Modal Structure -->
-      <div id="modal1" class="modal">
+      <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h4>About</h4>
           <p>
-            This Website was created by Toan Hoang, Tableau Zen Master as a way
-            to quickly find the tutorials for the visualisations you require
+            This was created by Toan Hoang, Tableau Zen Master as a way to
+            quickly search for tutorials for the visualisations you require.
+            This is an initial version, but more features will be coming.
+          </p>
+          <p>Upcoming features include:</p>
+          <ul>
+            <li>More In-depth descriptions for each data visualisation</li>
+            <li>When to use each data visualisation type</li>
+            <li>Filter Buttons for Categories</li>
+            <li>Alternatives</li>
+          </ul>
+          <p>
+            Visit website:
+            <a href="https://tableau.toanhoang.com" target="_blank"
+              >https://tableau.toanhoang.com</a
+            >
           </p>
         </div>
         <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-            >Agree</a
+          <a href="" class="modal-close waves-effect waves-green btn-flat"
+            >Close</a
           >
         </div>
       </div>
 
-      <input class="search" placeholder="Search" />
-      <div id="my-list">
-        <div class="row">
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Data Viz</span>
-                  <i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
+      <div class="input-field col s6">
+        <i class="material-icons prefix">search</i>
+        <input
+          class="search"
+          placeholder="Search"
+          type="text"
+          class="validate"
+        />
+      </div>
+      <div class="row">
+        <!-- Cards -->
+
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/gauge_chart_with_arrow.png" />
             </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Second Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Gauge Charts (With Arrow)</span
+                ><i class="material-icons right">more_vert</i></span
+              >
             </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Third Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Gauge Charts (With Arrow)<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Guage Chart (With Arrow) in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/gauge-chart-with-arrow/"
+                  >View Tutorial</a
                 >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Final Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Fifth Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Final Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Sixth Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Seventh Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l3">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img
-                  class="activator"
-                  src="http://materializecss.com/images/office.jpg"
-                />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                  ><span class="card-search">My Eighth Viz</span
-                  ><i class="material-icons right"
-                    >arrow_drop_down_circle</i
-                  ></span
-                >
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"
-                  >My Data Viz<i class="material-icons right">close</i></span
-                >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae tempor ex. Phasellus pretium congue eros, in
-                  molestie mi accumsan id. Fusce eu ante in mi faucibus viverra
-                </p>
-                <div class="card-action">
-                  <a href="#">View Tutorial</a>
-                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/circular_kpis.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Circular KPIs</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Circular KPIs<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Circular KPIs in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-circular-kpis-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/rounded_gantt_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Rounded Gantt Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Rounded Gantt Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Rounded Gantt Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-rounded-gantt-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/single_level_sankey_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Single Level Sankey Diagram</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Single Level Sankey Diagram<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Single Level Sankey Diagram in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/single-level-sankey-diagram/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/podium_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Podium Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Podium Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Podium Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-podium-bar-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/curved_polar_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Curved Polar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Curved Polar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Curved Polar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-curved-polar-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/sketchy_bar_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Sketchy Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Sketchy Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Sketchy Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-sketchy-bar-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/polar_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Polar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Polar Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Polar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-polar-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/parallel_sets.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Parallel Sets</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Parallel Sets<i class="material-icons right">close</i></span
+              >
+              <p>Creating Parallel Sets in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-parallel-sets-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/win_loss_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Win-Loss Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Win-Loss Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating Win-Loss Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-win-loss-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/radial_column_chart_variation.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Column Chart</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Column Chart<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating Radial Column Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/create-a-radial-column-chart-variation/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/bezier_curve.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Bezier Curve</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Bezier Curve<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Bezier Curve in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-bezier-curve-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/wilkinson_plot.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Wilkinson Plots</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Wilkinson Plots<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Wilkinson Plot in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-wilkinson-plot/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/tilted_bar_charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Tilted Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Tilted Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Tilted Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-tilted-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/circular_network_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Circular Network Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Circular Network Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Circular Network Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-circular-network-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/jitter_stacked_bar_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Jitter Stacked Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Jitter Stacked Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Jitter Stacked Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-jitter-stacked-bar-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/gradient_radial_bar_charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Gradient Radial Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Gradient Radial Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Gradient Radial Bar Charts in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-gradient-radial-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/negative_space_bar_chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Negative Space Area Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Negative Space Area Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Negative Space Area Charts in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-negative-space-area-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/multi_level_dendrogram_charts.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Multi-Level Dendrogram Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Multi-Level Dendrogram Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Multi-Level Dendrogram Charts in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-multi-level-dendrogram-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/half_circle_timeline_charts.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Half-Circle Timeline Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Half-Circle Timeline Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Half-Circle Timeline Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-half-circle-timelines-variation-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/negative_space_bar_charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Negative Space Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Negative Space Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Negative Space Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-negative-space-bar-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Spiral_Stacked_Line_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Spiral Stacked Line Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Spiral Stacked Line Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Spiral Stacked Line Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-spiral-stacked-line-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Petal_Polygon_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Petal Polygon Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Petal Polygon Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Petal Polygon Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-petal-polygon-diagrams/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Floating_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Floating Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Floating Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a floating Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-floating-bar-charts-with-shaped-background/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Square_Arc_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Square Arc Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Square Arc Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Square Arc Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-square-arc-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Curved_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Curved Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Curved Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Curved Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-curved-bar-chart-in-tableau-variation/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Path_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Path Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Path Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Path Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-path-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Step_Line_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Step Line Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Step Line Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Step Line Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-step-line-chart-with-indicators/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/Dendrogram_Charts_Rounded_Bars.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search"
+                  >Dendrogram Charts (Rounded Bars)</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Dendrogram Charts (Rounded Bars)<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Denderogram with Rounded Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-dendrogram-with-rounded-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/Squred_Spiral_Column_Charts.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Squred Spiral Column Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Squred Spiral Column Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Square Spiral Column Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-squared-spiral-column-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/Dendrogram_Charts_Single_Level.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search"
+                  >Dendrogram Charts (Single Level)</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Dendrogram Charts (Single Level)<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Single Level Dendrogram Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-an-single-level-dendrogram-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Variable_Width_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Variable Width Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Variable Width Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Variable Width Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-variable-width-bar-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Spiral_Column_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Spiral Column Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Spiral Column Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Spiral Column Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-spiral-column-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Nolan_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Nolan Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Nolan Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Nolan Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-nolan-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Completion_Gantt_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Completion Gantt Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Completion Gantt Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Completion Gantt Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-completion-gantt-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Square_Bump_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Square Bump Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Square Bump Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Square Bump Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-square-bump-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Error_Margin_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Error Margin Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Error Margin Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating an Error Margin Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/tableau-qt-error-margin/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radial_Jitter_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Jitter Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Jitter Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Radial Jitter Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-radial-jitter-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Rootogram.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Rootogram</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Rootogram<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Rootogram Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/tableau-qt-rootogram/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Textured_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Textured Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Textured Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Textured Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/create-a-bar-chart-textured-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/Histogram_with_Normal_Curve.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Histogram with Normal Curve</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Histogram with Normal Curve<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Histogram with Normal Curve in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-histogram-with-normal-curve/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Gradient_Pie_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Gradient Pie Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Gradient Pie Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Gradient Pie Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-gradient-pie-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/OHLC_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">OHLC Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >OHLC Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Open-High-Low-Close Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/tableau-qt-ohlc-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/3D_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">3D Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >3D Bar Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a 3D Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/shaped-bar-charts-3d-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Marrimekko_Chart.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Marrimekko Chart</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Marrimekko Chart<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Marrimekko Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-marimekko-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Pudding_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Pudding Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Pudding Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Pudding Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-pudding-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Floating_Icon_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Floating Icon Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Floating Icon Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Floating Icon Bar Charts in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-bar-chart-with-floating-icons/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radial_Column_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Column Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Column Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Radial Column Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-radial-column-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Coxcomb_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Coxcomb Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Coxcomb Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Coxcomb Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-a-coxcomb-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Gradient_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Gradient Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Gradient Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Gradient Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-gradient-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radial_Stacked_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Stacked Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Stacked Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Radial Stacked Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-radial-stacked-bar-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Quadrant_Plots.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Quadrant Plots</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Quadrant Plots<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Quadrant Plot in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-quadrant-plots/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Bar_with_Trend_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Bar with Trend Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Bar with Trend Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Bar with Trend Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-bar-with-trend-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Gauge_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Gauge Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Gauge Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Gauge Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-gauges-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Volume_Dial_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Volume Dial Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Volume Dial Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Volume Dial Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-volume-dial-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Half_Circle_Gauge_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Half-Circle Gauge Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Half-Circle Gauge Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Half-Circle Gauge Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-half-circle-gauge-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Calendar_Circle_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Calendar Circle Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Calendar Circle Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Calendar Circle Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-calendar-circle-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Rounded_Stacked_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Rounded Stacked Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Rounded Stacked Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Rounded Stacked Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-rounded-stacked-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Layered_Area_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Layered Area Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Layered Area Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Layered Area Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-layered-area-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Jitter_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Jitter Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Jitter Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Jitter Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-jitter-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Spiral_Hex_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Spiral Hex Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Spiral Hex Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Spiral Hex Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-spiral-hex-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Square_Area_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Square Area Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Square Area Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Square Area Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-square-area-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Neon_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Neon Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Neon Bar Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Neon Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-neon-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/Layered_Filled_Circle_Charts.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Layered Filled Circle Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Layered Filled Circle Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Layered Filled Circle Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-layered-filled-circle-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Ternary_Plots.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Ternary Plots</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Ternary Plots<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Ternary Plot in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/creating-ternary-plots-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Tally_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Tally Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Tally Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Tally Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-tally-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Curved_Bar_Charts2.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Curved Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Curved Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating Curved Bar Charts in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-curved-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Triangle_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Triangle Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Triangle Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Triangle Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-triangle-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Candlestick_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Candlestick Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Candlestick Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Candlestick Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-candlestick-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Hex_Maps.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Hex Maps</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Hex Maps<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Hex Map in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/hex-maps-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Sigmoid_Area_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Sigmoid Area Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Sigmoid Area Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Sigmoid Area Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/sigmoid-area-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Connected_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Connected Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Connected Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Connected Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-connected-bar-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Spiral_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Spiral Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Spiral Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Spiral Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-spiral-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Arrow_Doughnut_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Arrow Doughnut Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Arrow Doughnut Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Arrow Doughnut Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/arrow-doughnut-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Cylinder_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Cylinder Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Cylinder Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Cylinder Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/cylinder-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Waffle_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Waffle Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Waffle Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Waffle Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/waffle-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Circular_Jitter_Plots.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Circular Jitter Plots</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Circular Jitter Plots<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Circular Jitter Plot in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/circular-jitter-plots-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Filled_Circle_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Filled Circle Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Filled Circle Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Filled Circle Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/filled-circle-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Dot_Quadrant_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Dot Quadrant Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Dot Quadrant Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Dot Quadrant Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/dot-quadrant-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Pyramid_Step_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Pyramid Step Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Pyramid Step Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Pyramid Step Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-pyramid-step-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Thermometer_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Thermometer Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Thermometer Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Thermometer Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-thermometer-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Circle_Dot_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Circle Dot Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Circle Dot Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Circle Dot Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-a-circle-dot-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Waterfall_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Waterfall Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Waterfall Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Waterfall Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-waterfall-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Shaped_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Shaped Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Shaped Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Shaped Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-shape-bar-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radial_Fan_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Fan Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Fan Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Radial Fan Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/radial-fan-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Daisy_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Daisy Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Daisy Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Daisy Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-daisy-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Epic_Viz.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Connected Weighted Bump Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Connected Weighted Bump Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Connected Weighted Bump Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-magic-epicviz-vol-1/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Sin_Dumbbell_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Sin-Dumbbell Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Sin-Dumbbell Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Sin-Dumbbell Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-sin-dumbbell-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radial_Rounded_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Rounded Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Rounded Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>
+                Creating a Combined Radial and Rounded Bar Charts in Tableau
+              </p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-a-combined-radial-and-rounded-bar-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Bump_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Bump Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Bump Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Bump Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/tableau-qt-league-table/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Rounded_Doughnut_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Rounded Doughnut Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Rounded Doughnut Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Rounded Doughnut Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-rounded-doughnut-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Funnel_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Funnel Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Funnel Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Funnel Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/tableau-qt-funnel-chart/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Drop_Off_Sankey_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Drop-Off Sankey Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Drop-Off Sankey Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Dropoff Sankey Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-a-drop-off-sankey-chart-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Square_Radial_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Square Radial Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Square Radial Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Square Radial Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-square-radial-bar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radar Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Radar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-radar-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Curved_Line_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Curved Line Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Curved Line Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Curved Line Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/tableau-qt-curved-lines/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Petal_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Petal Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Petal Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Petal Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/petal-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Half_Circle_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Half-Circle Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Half-Circle Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Half-Circle Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/half-circle-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Rounded_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Rounded Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Rounded Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Rounded Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/tableau-qt-rounded-bar-charts/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Venn_Diagrams.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Venn Diagrams</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Venn Diagrams<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Venn Diagram in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/venn-diagrams-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Packed_Circle_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Packed Circle Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Packed Circle Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Packed Circle Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/packed-circle-charts-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Process_Circles.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Process Circles</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Process Circles<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Process Circle in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/drawing-process-circles-in-tableau/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Radial_Bar_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Radial Bar Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Radial Bar Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Radial Bar Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/radial-bar-chart-tutorial/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="img/Dual_Metric_Doughnut_Charts.png"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Dual-Metric Doughnut Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Dual-Metric Doughnut Charts<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>Creating a Dual Metric Doughnut Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a
+                  href="https://tableau.toanhoang.com/dual-metric-doughnut-chart-tutorial/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/Sunburst_Charts.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                ><span class="card-search">Sunburst Charts</span
+                ><i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Sunburst Charts<i class="material-icons right">close</i></span
+              >
+              <p>Creating a Sunburst Chart in Tableau</p>
+              <p></p>
+              <div class="card-action">
+                <a href="https://tableau.toanhoang.com/sunburst-chart-tutorial/"
+                  >View Tutorial</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- End of Cards -->
       </div>
     </div>
   </body>

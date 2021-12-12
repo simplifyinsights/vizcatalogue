@@ -1,0 +1,25 @@
+h3 {
+  font-family: roboto;
+  font-size: 2em;
+  color: grey;
+}
+
+.sub-header {
+  color: grey;
+}
+
+.card .card-reveal .card-title {
+  font-size: 1em;
+}
+
+.card-search {
+  font-size: 0.65em;
+}
+
+.card .card-content {
+  padding: 12px 10px 10px 20px;
+}
+
+ul li {
+  list-style-type: circle !important
+}
