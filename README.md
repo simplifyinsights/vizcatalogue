@@ -18,7 +18,7 @@ This is an Excel file that is used to generate the "Cards".
 - Column D: URL (the link to the )
 - Column E: Image (this is the image that will show on the card and will need to exist in the img directory)
 - Column G-J: Hidden, but this contains the HTML segments that will make up the card, I have split this into individual pieces for ease of editing 
-- Column L: This is the final HTML that will need to be copied between the <!-- Cards --> and <!-- End of Cards -->
+- Column L: This is the final HTML that will need to be copied between the \<!-- Cards --> and <!-- End of Cards -->
 
 ## Images
 
