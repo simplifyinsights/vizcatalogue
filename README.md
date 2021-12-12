@@ -6,7 +6,7 @@ You can find this [Here](https://tabcat.toanhoang.com)
 
 ## Technology
 
-This application leverages jQuery (for interactivity) and Materializecss as the front end framework i.e. Leveraging the Grid functionality and Cards.
+This web application leverages [jQuery](https://jquery.com) (for interactivity) and [Materializecss](https://materializecss.com) as the front end framework i.e. Leveraging the Grid functionality and Cards.
 
 ## Website Text
 
